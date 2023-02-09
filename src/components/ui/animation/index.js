@@ -4,38 +4,38 @@ import "./style.css";
 function Animation() {
   return (
     <div className="relative w-screen h-screen">
-      <div class="animation01">
-        <div class="rhombus_small">
-          <div class="rhombus">
-            <div class="border_box">
-              <span class="line line01"></span>
-              <span class="line line02"></span>
-              <span class="line line03"></span>
-              <span class="line line04"></span>
-              <span class="circle circle01"></span>
-              <span class="circle circle02"></span>
-              <span class="circle circle03"></span>
-              <span class="circle circle04"></span>
-              <span class="animation_line animation_line01"></span>
-              <span class="animation_line_wrapper animation_line02_wrapper">
-                <span class="animation_line animation_line02"></span>
+      <div className="animation01">
+        <div className="rhombus_small">
+          <div className="rhombus">
+            <div className="border_box">
+              <span className="line line01"></span>
+              <span className="line line02"></span>
+              <span className="line line03"></span>
+              <span className="line line04"></span>
+              <span className="circle circle01"></span>
+              <span className="circle circle02"></span>
+              <span className="circle circle03"></span>
+              <span className="circle circle04"></span>
+              <span className="animation_line animation_line01"></span>
+              <span className="animation_line_wrapper animation_line02_wrapper">
+                <span className="animation_line animation_line02"></span>
               </span>
-              <span class="animation_line animation_line03"></span>
-              <span class="animation_line_wrapper animation_line04_wrapper">
-                <span class="animation_line animation_line04"></span>
+              <span className="animation_line animation_line03"></span>
+              <span className="animation_line_wrapper animation_line04_wrapper">
+                <span className="animation_line animation_line04"></span>
               </span>
-              <span class="animation_line animation_line05"></span>
-              <span class="animation_line_wrapper animation_line06_wrapper">
-                <span class="animation_line animation_line06"></span>
+              <span className="animation_line animation_line05"></span>
+              <span className="animation_line_wrapper animation_line06_wrapper">
+                <span className="animation_line animation_line06"></span>
               </span>
-              <span class="animation_line animation_line07"></span>
-              <span class="animation_line_wrapper animation_line08_wrapper">
-                <span class="animation_line animation_line08"></span>
+              <span className="animation_line animation_line07"></span>
+              <span className="animation_line_wrapper animation_line08_wrapper">
+                <span className="animation_line animation_line08"></span>
               </span>
             </div>
-            <div class="wave">
-              <div class="wave_wrapper">
-                <div class="wave_box"></div>
+            <div className="wave">
+              <div className="wave_wrapper">
+                <div className="wave_box"></div>
               </div>
             </div>
           </div>
