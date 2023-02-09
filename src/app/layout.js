@@ -12,8 +12,7 @@ export default function RootLayout({ children }) {
       <body className="bg-light relative">
         <LeftSidebar />
         <RightSidebar />
-
-        <main className="mx-56 pt-10">{children}</main>
+        <main>{children}</main>
         <Footer />
       </body>
     </html>
