@@ -41,37 +41,37 @@ function Animation() {
           </div>
         </div>
       </div>
-      <div class="animation02">
-        <div class="rhombus_box">
-          <span class="rhombus_item_wrapper rhombus_item01_wrapper">
-            <span class="rhombus_item"></span>
+      <div className="animation02">
+        <div className="rhombus_box">
+          <span className="rhombus_item_wrapper rhombus_item01_wrapper">
+            <span className="rhombus_item"></span>
           </span>
-          <span class="rhombus_item_wrapper rhombus_item02_wrapper">
-            <span class="rhombus_item"></span>
+          <span className="rhombus_item_wrapper rhombus_item02_wrapper">
+            <span className="rhombus_item"></span>
           </span>
         </div>
-        <div class="double_content">
-          <div class="double_wrapper02 dotted02">
-            <div class="dotted_hide">
-              <div class="double_wrapper01 dotted01">
-                <span class="dotted_right"></span>
+        <div className="double_content">
+          <div className="double_wrapper02 dotted02">
+            <div className="dotted_hide">
+              <div className="double_wrapper01 dotted01">
+                <span className="dotted_right"></span>
               </div>
             </div>
           </div>
-          <div class="double_wrapper02 white02">
-            <div class="double_wrapper01 white01"></div>
+          <div className="double_wrapper02 white02">
+            <div className="double_wrapper01 white01"></div>
           </div>
-          <div class="double_wrapper02 gray02">
-            <div class="double_wrapper01 gray01"></div>
+          <div className="double_wrapper02 gray02">
+            <div className="double_wrapper01 gray01"></div>
           </div>
-          <div class="double_wrapper02 orange02">
-            <div class="double_wrapper01 orange01"></div>
+          <div className="double_wrapper02 orange02">
+            <div className="double_wrapper01 orange01"></div>
           </div>
         </div>
-        <div class="name">
+        <div className="name">
           <p>HELLO</p>
-          <span class="name_circle01"></span>
-          <span class="name_circle02"></span>
+          <span className="name_circle01"></span>
+          <span className="name_circle02"></span>
         </div>
       </div>
     </div>
