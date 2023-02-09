@@ -9,11 +9,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="tr">
       <head />
-      <body>
+      <body className="bg-light relative flex gap-x-10">
         <LeftSidebar />
         <RightSidebar />
 
-        <main>{children}</main>
+        <main className="ml-56">{children}</main>
         <Footer />
       </body>
     </html>
