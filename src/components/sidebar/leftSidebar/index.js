@@ -4,8 +4,8 @@ import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 
 function LeftSidebar() {
   return (
-    <div className="min-h-screen bg-light text-dark fixed w-52">
-      <div className="sidebar min-h-screen w-52 overflow-hidden border-r">
+    <div className="min-h-screen bg-light text-dark absolute left-0 w-52">
+      <div className="sidebar min-h-screen w-52 overflow-hidden fixed">
         <div className="flex h-screen flex-col justify-between pt-2 pb-6">
           <div className="flex items-center justify-center">
             <a
@@ -19,10 +19,10 @@ function LeftSidebar() {
             <div className="h-96 w-[1px] bg-dark rounded-lg"></div>
           </div>
           <div className="flex items-center justify-center -mb-1">
-            <ul className="space-y-6 tracking-wide">
+            <ul className="space-y-3 tracking-wide">
               <li className="min-w-max">
                 <a href="#" className="flex items-center px-4 py-3">
-                  <GrMail size={32} />
+                  <GrMail size={28} />
                 </a>
               </li>
               <li className="min-w-max">
@@ -30,7 +30,7 @@ function LeftSidebar() {
                   href="https://www.linkedin.com/in/zehra-ikizler-831573208/"
                   className="flex items-center px-4 py-3"
                 >
-                  <FaLinkedinIn size={32} />
+                  <FaLinkedinIn size={28} />
                 </a>
               </li>
               <li className="min-w-max">
@@ -38,7 +38,7 @@ function LeftSidebar() {
                   href="https://github.com/zehraikizler"
                   className="flex items-center px-4 py-3"
                 >
-                  <FaGithub size={32} />
+                  <FaGithub size={28} />
                 </a>
               </li>
             </ul>
