@@ -2,7 +2,7 @@ import React from "react";
 
 function RightSidebar() {
   return (
-    <div className="min-h-screen bg-light text-dark  w-52 absolute right-0">
+    <div className="min-h-screen bg-light text-dark  w-52 absolute right-0 z-10">
       <div className="sidebar min-h-screen w-52 overflow-hidden fixed">
         <div className="flex h-screen flex-col justify-between pt-2 pb-6">
           <div className="flex items-center justify-center mt-10">

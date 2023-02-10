@@ -1,4 +1,5 @@
 import Footer from "@/components/footer";
+import MouseTracking from "@/components/mouseTracking";
 import LeftSidebar from "@/components/sidebar/leftSidebar";
 import RightSidebar from "@/components/sidebar/rightSidebar";
 
@@ -13,6 +14,7 @@ export default function RootLayout({ children }) {
         <LeftSidebar />
         <RightSidebar />
         <main>{children}</main>
+        <MouseTracking />
         <Footer />
       </body>
     </html>

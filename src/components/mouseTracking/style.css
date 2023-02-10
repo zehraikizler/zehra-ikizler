@@ -1,0 +1,6 @@
+.mouse-tracking {
+  pointer-events: none;
+  height: 100px;
+  width: 100px;
+  background: radial-gradient(circle closest-side, #cd505a, transparent);
+}
