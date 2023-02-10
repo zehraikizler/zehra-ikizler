@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 function RightSidebar() {
@@ -8,19 +9,19 @@ function RightSidebar() {
           <div className="flex items-center justify-center mt-10">
             <ul className="tracking-wide border border-primary font-extrabold text-md px-4">
               <li className="min-w-max border-b-2 border-dark flex items-center justify-center">
-                <a href="#" className="flex items-center px-1 py-3">
-                  Work
-                </a>
+                <Link href="/about" className="flex items-center px-1 py-3">
+                  About
+                </Link>
               </li>
               <li className="min-w-max border-b-2 border-dark  flex items-center justify-center">
-                <a href="#" className="flex items-center px-1 py-3">
-                  About
-                </a>
+                <Link href="/work" className="flex items-center px-1 py-3">
+                  Work
+                </Link>
               </li>
               <li className="min-w-max flex items-center justify-center">
-                <a href="#" className="flex items-center px-1 py-3">
+                <Link href="/contact" className="flex items-center px-1 py-3">
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
