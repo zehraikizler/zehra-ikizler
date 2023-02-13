@@ -1,5 +1,6 @@
 import Education from "@/components/education";
 import Experience from "@/components/experience";
+import Technologies from "@/components/technologies";
 import Title from "@/components/ui/title";
 import Image from "next/image";
 import React from "react";
@@ -7,8 +8,7 @@ import React from "react";
 const AboutPage = () => {
   return (
     <div className="mx-80">
-      <Title>About</Title>
-      <div className="mx-16 relative mb-[550px]">
+      <div className="mx-16 pt-20 relative mb-[550px]">
         <h3 className="font-bold text-9xl text-dark font-mono">
           Hello, <br /> I'm
           <br /> Zehra.
@@ -25,7 +25,8 @@ const AboutPage = () => {
       </div>
 
       <div className="mx-16">
-        <p className="text-xl font-semibold text-dark my-20">
+        <Title>About Me</Title>
+        <p className="text-xl font-semibold text-dark font-sans mb-20 leading-8">
           Classroom Teaching at Trabzon University as you continue reading in
           the section I started writing my first code with my interest. I
           learned HTML, CSS and Bootstrap and did a few projects in the
@@ -39,6 +40,7 @@ const AboutPage = () => {
           company. Detail i like to dwell on it and deal with the details. I
           never shy away from taking responsibility.
         </p>
+        <Technologies />
         <Experience />
         <Education />
       </div>
