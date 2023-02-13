@@ -1,3 +1,4 @@
+import Footer from "@/components/footer";
 import MouseTracking from "@/components/mouseTracking";
 import LeftSidebar from "@/components/sidebar/leftSidebar";
 import RightSidebar from "@/components/sidebar/rightSidebar";
@@ -14,6 +15,7 @@ export default function RootLayout({ children }) {
         <RightSidebar />
         <main>{children}</main>
         <MouseTracking />
+        <Footer />
         <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
       </body>
     </html>
