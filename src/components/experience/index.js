@@ -1,55 +1,55 @@
 import React from "react";
 
-const Education = () => {
+const Experience = () => {
   return (
-    <div className="pb-16">
+    <div className="mb-16">
       <h2 className="text-lg font-semibold text-dark underline my-3">
-        Education
+        Experience
       </h2>
       <ol className="relative border-l border-secondary">
         <li className="mb-10 ml-4">
           <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-secondary"></div>
           <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-            January 2023 - On Going
+            March 2022 - On Going
           </time>
           <h3 className="text-lg font-semibold text-dark">
-            Balikesir University
+            Frontend Developer
           </h3>
-          <p className="mb-1 text-base font-normal text-gray-500">
-            Computer and Instructional Technology Education
+          <p className="mb-1 text-base font-normal text-primary">
+            Kodline Yazılım ve teknoloji Ltd. Şti.
           </p>
           <p className="mb-4 font-normal text-gray-500 text-sm">
-            Master Degree
+            Balıkesir, Turkey - Full Time
           </p>
         </li>
         <li className="mb-10 ml-4">
           <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-secondary"></div>
           <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-            September 2022 - On Going
+            July 2021 - October 2021
           </time>
           <h3 className="text-lg font-semibold text-dark">
-            Istanbul University
+            Frontend Developer
           </h3>
-          <p className="mb-1 text-base font-normal text-gray-500">
-            Computer Programming
+          <p className="mb-1 text-base font-normal text-primary">
+            Bubo Creative
           </p>
           <p className="mb-4 font-normal text-gray-500 text-sm">
-            Associate Degree
+            Remote - Intern
           </p>
         </li>
         <li className="ml-4">
           <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-secondary"></div>
           <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-            September 2018 - June 2022
+            June 2021 - July 2021
           </time>
           <h3 className="text-lg font-semibold text-dark">
-            Trabzon University
+            Frontend Developer
           </h3>
-          <p className="mb-1 text-base font-normal text-gray-500">
-            Classroom Teacher
+          <p className="mb-1 text-base font-normal text-primary">
+            Ase Yazılım ve Bilişim Çözümleri San. Tic. Ltd. Şti.
           </p>
           <p className="mb-4 font-normal text-gray-500 text-sm">
-            Undergraduate
+            Remote - Intern
           </p>
         </li>
       </ol>
@@ -57,4 +57,4 @@ const Education = () => {
   );
 };
 
-export default Education;
+export default Experience;
