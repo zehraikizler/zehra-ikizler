@@ -1,6 +1,7 @@
 import Education from "@/components/education";
 import Experience from "@/components/experience";
 import Technologies from "@/components/technologies";
+import Trainings from "@/components/trainings";
 import Title from "@/components/ui/title";
 import Image from "next/image";
 import React from "react";
@@ -43,6 +44,7 @@ const AboutPage = () => {
         <Technologies />
         <Experience />
         <Education />
+        <Trainings />
       </div>
     </div>
   );
