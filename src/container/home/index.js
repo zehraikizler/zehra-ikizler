@@ -5,7 +5,7 @@ function HomePage() {
   return (
     <div>
       <Animation />
-      <div className="mx-56 h-32">aa</div>
+      {/* <div className="mx-56 h-32"></div> */}
     </div>
   );
 }
