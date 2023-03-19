@@ -11,12 +11,13 @@ export default function RootLayout({ children }) {
     <html lang="tr">
       <head />
       <body className="bg-light relative">
-        <LeftSidebar />
-        <RightSidebar />
-        <main>{children}</main>
-        <MouseTracking />
-        <Footer />
-        <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+        <div>
+          <LeftSidebar />
+          <RightSidebar />
+          <main>{children}</main>
+          <MouseTracking />
+          <Footer />
+        </div>
       </body>
     </html>
   );

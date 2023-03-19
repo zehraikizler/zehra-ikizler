@@ -4,7 +4,7 @@ import "./style.css";
 function Animation() {
   return (
     <div className="relative w-screen h-screen z-0">
-      <div className="animation01">
+      {/* <div className="animation01">
         <div className="rhombus_small">
           <div className="rhombus">
             <div className="border_box">
@@ -40,7 +40,7 @@ function Animation() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="animation02">
         <div className="rhombus_box">
           <span className="rhombus_item_wrapper rhombus_item01_wrapper">

@@ -1,7 +1,7 @@
 /*===================
 animation01
 ====================*/
-.animation01 {
+/* .animation01 {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -293,8 +293,8 @@ animation01
     transform: translateY(1.5vw);
     opacity: 1;
   }
-}
-.animation_line07 {
+} */
+/* .animation_line07 {
   top: 50%;
   left: -130%;
   width: 0.7vw;
@@ -357,7 +357,7 @@ animation01
     transform: scale3d(0.15, 0.15, 0.15);
     opacity: 0;
   }
-}
+} */
 
 /*===================
 animation02
@@ -376,7 +376,7 @@ animation02
   margin: auto;
   width: 40vw;
   height: 40vw;
-  animation: rhombus_box 0.4s linear 3.55s forwards;
+  animation: rhombus_box 0.4s linear 0.9s forwards;
 }
 .rhombus_item_wrapper {
   position: absolute;
@@ -402,11 +402,11 @@ animation02
   transform: rotate(45deg);
 }
 .rhombus_item01_wrapper {
-  animation: rhombus_item01 0.5s linear 2.95s forwards;
+  animation: rhombus_item01 0.5s linear 0.3s forwards;
 }
 
 .rhombus_item02_wrapper {
-  animation: rhombus_item02 0.5s linear 2.95s forwards;
+  animation: rhombus_item02 0.5s linear 0.3s forwards;
 }
 @keyframes rhombus_item01 {
   0% {
@@ -513,7 +513,7 @@ dotted circle
   width: 32vw;
   height: 32vw;
   transform-origin: left 16vw;
-  animation: rotate-circle-right 0.5s linear 4.2s forwards;
+  animation: rotate-circle-right 0.5s linear 1.55s forwards;
 }
 .dotted_right {
   position: absolute;
@@ -531,7 +531,7 @@ dotted circle
   width: 32vw;
   height: 32vw;
   transform-origin: right 16vw;
-  animation: rotate-circle-left01 0.5s linear 4.2s forwards;
+  animation: rotate-circle-left01 0.5s linear 1.55s forwards;
 }
 @keyframes rotate-circle-left01 {
   0% {
@@ -558,7 +558,7 @@ white circle
 ============*/
 .white02 {
   top: -100%;
-  animation-delay: 4.7s;
+  animation-delay: 2.05s;
 }
 .white01 {
   width: 29vw;
@@ -575,7 +575,7 @@ white circle
   width: 29vw;
   height: 29vw;
   transform-origin: left 14.5vw;
-  animation: rotate-circle-right 0.3s linear 4.7s forwards;
+  animation: rotate-circle-right 0.3s linear 2.05s forwards;
 }
 .white01::after {
   top: 0;
@@ -583,7 +583,7 @@ white circle
   width: 29vw;
   height: 29vw;
   transform-origin: right 14.5vw;
-  animation: rotate-circle-left 0.3s linear 4.7s forwards;
+  animation: rotate-circle-left 0.3s linear 2.05s forwards;
 }
 @keyframes rotate-circle-left {
   0% {
@@ -626,7 +626,7 @@ gray circle
   height: 8vw;
   background: #fff;
   transform-origin: left 4vw;
-  animation: rotate-circle-right 0.5s linear 4.8s forwards;
+  animation: rotate-circle-right 0.5s linear 2.15s forwards;
 }
 .gray01::after {
   top: 0;
@@ -635,7 +635,7 @@ gray circle
   height: 8vw;
   background: #fff;
   transform-origin: right 4vw;
-  animation: rotate-circle-left03 0.5s linear 4.8s forwards;
+  animation: rotate-circle-left03 0.5s linear 2.15s forwards;
 }
 @keyframes rotate-circle-left03 {
   0% {
@@ -660,7 +660,7 @@ orange circle
 ============*/
 .orange02 {
   top: -300%;
-  animation-delay: 5.3s;
+  animation-delay: 2.65s;
 }
 .orange01 {
   width: 27vw;
@@ -678,7 +678,7 @@ orange circle
   height: 27vw;
   background: #fff;
   transform-origin: left 13.5vw;
-  animation: rotate-circle-right 0.5s linear 5.3s forwards;
+  animation: rotate-circle-right 0.5s linear 2.65s forwards;
 }
 .orange01::after {
   top: 0;
@@ -687,7 +687,7 @@ orange circle
   height: 27vw;
   background: #fff;
   transform-origin: right 13.5vw;
-  animation: rotate-circle-left02 0.5s linear 5.3s forwards;
+  animation: rotate-circle-left02 0.5s linear 2.65s forwards;
 }
 @keyframes rotate-circle-left02 {
   0% {
@@ -735,7 +735,7 @@ orange circle
   transform: translate(-50%, -50%);
   width: 30vw;
   height: 30vw;
-  animation: name 1s cubic-bezier(0.165, 0.84, 0.44, 1) 5.9s forwards;
+  animation: name 1s cubic-bezier(0.165, 0.84, 0.44, 1) 3.25s forwards;
   opacity: 0;
 }
 .name p {

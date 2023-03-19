@@ -2,10 +2,12 @@ import axios from "axios";
 
 export async function GetReposApi() {
   try {
-    let response = await axios.get("https://api.github.com/users/zehraikizler");
+    let response = await axios.get(
+      "https://api.github.com/users/zehraikizler/repos"
+    );
     return response.data;
   } catch (error) {
-    return null;
+    return error;
   }
 }
 

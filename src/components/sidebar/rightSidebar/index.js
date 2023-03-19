@@ -9,6 +9,11 @@ function RightSidebar() {
           <div className="flex items-center justify-center mt-10">
             <ul className="tracking-wide border border-primary font-extrabold text-md px-4">
               <li className="min-w-max border-b-2 border-dark flex items-center justify-center">
+                <Link href="/" className="flex items-center px-1 py-3">
+                  Home
+                </Link>
+              </li>
+              <li className="min-w-max border-b-2 border-dark  flex items-center justify-center">
                 <Link href="/about" className="flex items-center px-1 py-3">
                   About
                 </Link>
