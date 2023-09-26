@@ -3,7 +3,7 @@ import React from "react";
 
 function RightSidebar() {
   return (
-    <div className="min-h-screen bg-light text-dark  w-52 absolute right-0 z-10">
+    <div className="min-h-screen bg-white text-dark  w-52 absolute right-0 z-10">
       <div className="sidebar min-h-screen w-52 overflow-hidden fixed">
         <div className="flex h-screen flex-col justify-between pt-2 pb-6">
           <div className="flex items-center justify-center mt-10">
@@ -30,8 +30,8 @@ function RightSidebar() {
               </li>
             </ul>
           </div>
-          <div className="flex justify-center items-center mb-4">
-            <div className="h-96 w-[1px] bg-secondary rounded-lg"></div>
+          <div className="flex justify-center items-center mb-4 mt-6">
+            <div className="h-80 w-[1px] bg-secondary rounded-lg"></div>
           </div>
         </div>
       </div>

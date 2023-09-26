@@ -3,9 +3,8 @@ import Animation from "@/components/ui/animation";
 
 function HomePage() {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <Animation />
-      {/* <div className="mx-56 h-32"></div> */}
     </div>
   );
 }

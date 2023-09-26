@@ -10,7 +10,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="tr">
       <head />
-      <body className="bg-light relative">
+      <body className="bg-white relative overflow-x-hidden">
         <div>
           <LeftSidebar />
           <RightSidebar />

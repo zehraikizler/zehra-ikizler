@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
 const AboutPage = () => {
   return (
     <div className="mx-80">
-      <div className="mx-16 pt-20 relative mb-[550px]">
+      <div className="h-screen mx-16 relative flex items-center">
         <motion.h3
           className="font-bold text-9xl text-dark font-mono"
           initial={{ opacity: 0, scale: 0.5 }}
@@ -31,32 +31,6 @@ const AboutPage = () => {
           Hello, <br /> I'm
           <br /> Zehra.
         </motion.h3>
-        <motion.div
-          className="absolute"
-          style={{ right: 0 }}
-          initial={{ opacity: 0, scale: 0.5 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{
-            default: {
-              duration: 0.3,
-              ease: [0, 0.71, 0.2, 1.01],
-            },
-            scale: {
-              type: "spring",
-              damping: 10,
-              stiffness: 100,
-              restDelta: 0.001,
-            },
-          }}
-        >
-          <Image
-            src="https://media.licdn.com/dms/image/D4D03AQEpP_jIAnIviw/profile-displayphoto-shrink_800_800/0/1670316527183?e=1681948800&v=beta&t=tGVAfswQ6c2YMnnul00B1Xk8oesV1cZ7RZj9QZ-JKLY"
-            alt="profile"
-            className="rounded-2xl"
-            width="450"
-            height="450"
-          />
-        </motion.div>
       </div>
 
       <div className="mx-16">

@@ -5,17 +5,9 @@ import Link from "next/link";
 
 function LeftSidebar() {
   return (
-    <div className="min-h-screen bg-light text-dark absolute left-0 w-52 z-10">
+    <div className="min-h-screen bg-white text-dark absolute left-0 w-52 z-10">
       <div className="sidebar min-h-screen w-52 overflow-hidden fixed">
-        <div className="flex h-screen flex-col justify-between pt-2 pb-6">
-          <div className="flex items-center justify-center">
-            <Link
-              href="/"
-              className="font-bold text-5xl font-dancing tracking-wide mt-10 cursor-pointer"
-            >
-              Zİ
-            </Link>
-          </div>
+        <div className="flex h-screen flex-col justify-between pt-10 pb-6">
           <div className="flex justify-center items-center">
             <div className="h-96 w-[1px] bg-dark rounded-lg"></div>
           </div>
@@ -28,7 +20,7 @@ function LeftSidebar() {
               </li>
               <li className="min-w-max">
                 <Link
-                  href="https://www.linkedin.com/in/zehra-ikizler-831573208/"
+                  href="https://www.linkedin.com/in/zehraikizler/"
                   className="flex items-center px-4 py-3"
                   target="_blank"
                 >
