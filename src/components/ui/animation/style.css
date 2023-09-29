@@ -34,7 +34,7 @@
   margin: auto;
   width: 2.1vw;
   height: 2.1vw;
-  background-color: #fff;
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
   transform: rotate(45deg);
 }
 .rhombus_item01_wrapper {
@@ -98,14 +98,14 @@
   content: "";
   display: block;
   position: absolute;
-  background: #212022;
+  background: #ffbbbb;
   z-index: 2;
 }
 .double_wrapper01::after {
   content: "";
   display: block;
   position: absolute;
-  background: #212022;
+  background: #ffbbbb;
   z-index: 3;
 }
 /*============
@@ -129,7 +129,7 @@ dotted circle
 .dotted01 {
   width: 30vw;
   height: 30vw;
-  border: dotted 0.5vw #fff;
+  border: dotted 0.5vw rgb(17 24 39 / var(--tw-bg-opacity));
   z-index: 1;
   top: 50%;
   left: 50%;
@@ -140,7 +140,7 @@ dotted circle
   content: "";
   display: block;
   position: absolute;
-  background: #212022;
+  background: #ffbbbb;
   z-index: 3;
 }
 .dotted_right::before {
@@ -172,12 +172,12 @@ dotted circle
 @keyframes rotate-circle-left01 {
   0% {
     transform: rotate(0deg);
-    background: #212022;
+    background: #ffbbbb;
     opacity: 1;
   }
   50% {
     transform: rotate(-180deg);
-    background: #212022;
+    background: #ffbbbb;
     opacity: 1;
   }
   50.01% {
@@ -199,7 +199,7 @@ white circle
 .white01 {
   width: 29vw;
   height: 29vw;
-  background: #fff;
+  background: rgb(17 24 39 / var(--tw-bg-opacity));
   z-index: 1;
   top: 50%;
   left: 50%;
@@ -224,19 +224,19 @@ white circle
 @keyframes rotate-circle-left {
   0% {
     transform: rotate(0deg);
-    background: #212022;
+    background: #ffbbbb;
   }
   50% {
     transform: rotate(-180deg);
-    background: #212022;
+    background: #ffbbbb;
   }
   50.01% {
     transform: rotate(-360deg);
-    background: #fff;
+    background: rgb(17 24 39 / var(--tw-bg-opacity));
   }
   100% {
     transform: rotate(-360deg);
-    background: #fff;
+    background: rgb(17 24 39 / var(--tw-bg-opacity));
   }
 }
 /*============
@@ -249,7 +249,7 @@ gray circle
 .gray01 {
   width: 8vw;
   height: 8vw;
-  background: #808184;
+  background: #ffbbbb;
   z-index: 1;
   top: 50%;
   left: 50%;
@@ -260,7 +260,7 @@ gray circle
   left: 4vw;
   width: 8vw;
   height: 8vw;
-  background: #fff;
+  background: rgb(17 24 39 / var(--tw-bg-opacity));
   transform-origin: left 4vw;
   animation: rotate-circle-right 0.5s linear 2.15s forwards;
 }
@@ -269,26 +269,26 @@ gray circle
   left: -4vw;
   width: 8vw;
   height: 8vw;
-  background: #fff;
+  background: rgb(17 24 39 / var(--tw-bg-opacity));
   transform-origin: right 4vw;
   animation: rotate-circle-left03 0.5s linear 2.15s forwards;
 }
 @keyframes rotate-circle-left03 {
   0% {
     transform: rotate(0deg);
-    background: #fff;
+    background: rgb(17 24 39 / var(--tw-bg-opacity));
   }
   50% {
     transform: rotate(-180deg);
-    background: #fff;
+    background: rgb(17 24 39 / var(--tw-bg-opacity));
   }
   50.01% {
     transform: rotate(-360deg);
-    background: #808184;
+    background: #ffbbbb;
   }
   100% {
     transform: rotate(-360deg);
-    background: #808184;
+    background: #ffbbbb;
   }
 }
 /*============
@@ -312,7 +312,7 @@ orange circle
   left: 13.5vw;
   width: 27vw;
   height: 27vw;
-  background: #fff;
+  background: rgb(17 24 39 / var(--tw-bg-opacity));
   transform-origin: left 13.5vw;
   animation: rotate-circle-right 0.5s linear 2.65s forwards;
 }
@@ -321,18 +321,18 @@ orange circle
   left: -13.5vw;
   width: 27vw;
   height: 27vw;
-  background: #fff;
+  background: rgb(17 24 39 / var(--tw-bg-opacity));
   transform-origin: right 13.5vw;
   animation: rotate-circle-left02 0.5s linear 2.65s forwards;
 }
 @keyframes rotate-circle-left02 {
   0% {
     transform: rotate(0deg);
-    background: #fff;
+    background: rgb(17 24 39 / var(--tw-bg-opacity));
   }
   50% {
     transform: rotate(-180deg);
-    background: #fff;
+    background: rgb(17 24 39 / var(--tw-bg-opacity));
   }
   50.01% {
     transform: rotate(-360deg);
@@ -380,7 +380,8 @@ orange circle
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
-  font-size: 2vw;
+  font-size: 3vw;
+  font-weight: bold;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   letter-spacing: 0.1em;
 }

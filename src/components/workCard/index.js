@@ -26,9 +26,9 @@ const WorkCard = ({ item }) => {
       whileInView="onscreen"
       viewport={{ once: true, amount: 0.8 }}
     >
-      <div className="splash bg-danger" />
-      <motion.div className="card text-primary" variants={cardVariants}>
-        <h2 className="text-2xl font-bold lowercase text-center text-dark mb-8">
+      <div className="splash bg-slate-50" />
+      <motion.div className="card text-black" variants={cardVariants}>
+        <h2 className="text-2xl font-bold lowercase text-center text-black mb-8">
           {item.name}
         </h2>
         {item.description ? (
@@ -44,7 +44,7 @@ const WorkCard = ({ item }) => {
         <a
           href={item.clone_url}
           target="_blank"
-          className="bg-danger text-light text-center w-24 mx-auto mt-10 h-8 p-1 font-bold rounded-md z-40"
+          className="bg-gray-900 text-white text-center w-24 mx-auto mt-10 h-8 p-1 font-bold rounded-md z-40"
         >
           Detail
         </a>

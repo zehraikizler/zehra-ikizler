@@ -1,10 +1,9 @@
-import Footer from "@/components/footer";
-import MouseTracking from "@/components/mouseTracking";
-import LeftSidebar from "@/components/sidebar/leftSidebar";
-import RightSidebar from "@/components/sidebar/rightSidebar";
+import Footer from "../components/footer";
+import Header from "../components/header";
+import MouseTracking from "../components/mouseTracking";
 
-import "@/styles/global.css";
-import "@/styles/reset.css";
+import "../styles/global.css";
+import "../styles/reset.css";
 
 export default function RootLayout({ children }) {
   return (
@@ -12,8 +11,7 @@ export default function RootLayout({ children }) {
       <head />
       <body className="bg-white relative overflow-x-hidden">
         <div>
-          <LeftSidebar />
-          <RightSidebar />
+          <Header />
           <main>{children}</main>
           <MouseTracking />
           <Footer />
